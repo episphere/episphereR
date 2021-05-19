@@ -1,0 +1,16 @@
+Package: episphereR
+Type: Package
+Title: DCEG Data access and manipulation package
+Version: 0.1.0
+Authors@R: c(
+    person("Almeida","Jonas",email="jonas.dealmeida@nih.gov",role=c('aut')),
+    person("Russ","Daniel", email="daniel.russ@nih.gov",role=c('aut','cre'))
+    )
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+  boxr
+RoxygenNote: 7.1.1
