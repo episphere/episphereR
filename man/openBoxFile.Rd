@@ -2,7 +2,7 @@
 % Please edit documentation in R/episphereR.R
 \name{openBoxFile}
 \alias{openBoxFile}
-\title{opens a box file in your default browser}
+\title{openBoxFile}
 \usage{
 openBoxFile(id = 787813783402, ver = NULL)
 }

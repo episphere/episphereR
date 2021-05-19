@@ -2,7 +2,7 @@
 % Please edit documentation in R/episphereR.R
 \name{openURL}
 \alias{openURL}
-\title{open a browser window}
+\title{openURL}
 \usage{
 openURL(url = "https://episphere.github.io/r")
 }
