@@ -21,7 +21,7 @@ read data from a box file.
 The function is a wrapper around the box_read function
 }
 \examples{
-boxRead(id=787813783402)
+boxRead(file_id=787813783402)
 }
 \seealso{
 \code{\link[boxr]{box_read}}

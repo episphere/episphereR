@@ -12,5 +12,10 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports:
-  boxr
-RoxygenNote: 7.1.1
+    boxr,
+    magrittr,
+    jsonlite,
+    rlang,
+    purrr,
+    dplyr
+RoxygenNote: 7.1.2

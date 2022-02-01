@@ -6,6 +6,7 @@
 #' @examples
 #' openURL()
 #' openURL("https://www.google.com")
+#' @export
 openURL <- function(url="https://episphere.github.io/r"){
   utils::browseURL(url)
   invisible()
@@ -17,6 +18,7 @@ openURL <- function(url="https://episphere.github.io/r"){
 #' @examples
 #' openBoxFolder()
 #' openBoxFolder(id=0)
+#' @export
 openBoxFolder <- function(id=133596945131){
   boxr::box_auth(getOption("episphereR.box_cid"),getOption("episphereR.box_cls"))
   message(paste("folder #",id," opened in your browser",sep=""))
@@ -30,6 +32,7 @@ openBoxFolder <- function(id=133596945131){
 #' @param id  box file id.
 #' @param ver box file version number
 #' @return opens a browser window (returns NULL)
+#' @export
 #' @examples
 #' openBoxFile()
 #' openBoxFile(id=787813783402)
@@ -52,8 +55,9 @@ openBoxFile <- function(id=787813783402,ver=NULL){
 #' @param file_id the file to read (default is a simulated data file)
 #' @param version_id the version of the box file
 #' @param ... values passed to boxr::box_read
+#' @export
 #' @examples
-#' boxRead(id=787813783402)
+#' boxRead(file_id=787813783402)
 #' @seealso \code{\link[boxr]{box_read}}
 boxRead <- function(file_id=787813783402, version_id = NULL, ...){
   boxr::box_auth(getOption("episphereR.box_cid"),getOption("episphereR.box_cls"))
