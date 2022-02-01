@@ -7,5 +7,5 @@ install.packages('devtools')
 ```
 then 
 ```
-devtools::install_github("episphere/episphere.R")
+devtools::install_github("episphere/episphereR")
 ```
